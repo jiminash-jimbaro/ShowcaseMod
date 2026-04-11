@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"build/_deps/tuliphook-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "TulipHookInclude::@0024a1e58d8446055bd7",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "GeodeResult::@7c2918d2800bad6c4b52"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "GeodeResult::@7c2918d2800bad6c4b52"
+		}
+	],
+	"name" : "TulipHookInclude",
+	"paths" : 
+	{
+		"build" : "_deps/tuliphook-build",
+		"source" : "build/_deps/tuliphook-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

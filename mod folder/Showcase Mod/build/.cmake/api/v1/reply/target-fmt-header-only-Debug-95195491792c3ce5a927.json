@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"build/_deps/fmt-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "fmt-header-only::@976f4f0bee90b99ecdb6",
+	"name" : "fmt-header-only",
+	"paths" : 
+	{
+		"build" : "_deps/fmt-build",
+		"source" : "build/_deps/fmt-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

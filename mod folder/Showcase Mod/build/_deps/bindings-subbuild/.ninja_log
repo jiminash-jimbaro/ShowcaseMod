@@ -1,0 +1,37 @@
+# ninja log v7
+2	96	7975918276956926	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-mkdir	b566fa499333e738
+2	96	7975918276956926	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-mkdir	b566fa499333e738
+97	10909	7975918384977138	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-download	84843dcbe9bccb36
+97	10909	7975918384977138	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-download	84843dcbe9bccb36
+21	2264	7975944730739624	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	3cd990c10043b6bb
+21	2264	7975944730739624	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	3cd990c10043b6bb
+2264	2311	7975944753593866	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	586a7ccd01925186
+2264	2311	7975944753593866	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	586a7ccd01925186
+2311	2360	7975944754075875	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	4f76955faa42bb23
+2311	2360	7975944754075875	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	4f76955faa42bb23
+2360	2405	7975944754537892	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	bc9c55e8185dca2a
+2360	2405	7975944754537892	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	bc9c55e8185dca2a
+2406	2451	7975944754989647	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	17e9fdf6776b70
+2406	2451	7975944754989647	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	17e9fdf6776b70
+2451	2502	7975944755495952	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	ecf6f1f86e56e998
+2451	2502	7975944755495952	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	ecf6f1f86e56e998
+2502	2564	7975944756129011	CMakeFiles/bindings-populate-complete	c3f36ce0415e549d
+2502	2564	7975944756129011	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	c3f36ce0415e549d
+2502	2564	7975944756129011	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/CMakeFiles/bindings-populate-complete	c3f36ce0415e549d
+2502	2564	7975944756129011	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	c3f36ce0415e549d
+3	1749	7975945179981944	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	3cd990c10043b6bb
+3	1749	7975945179981944	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	3cd990c10043b6bb
+1749	1810	7975945197982836	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	586a7ccd01925186
+1749	1810	7975945197982836	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	586a7ccd01925186
+1810	1867	7975945198550906	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	4f76955faa42bb23
+1810	1867	7975945198550906	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	4f76955faa42bb23
+1867	1925	7975945199141814	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	bc9c55e8185dca2a
+1867	1925	7975945199141814	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	bc9c55e8185dca2a
+1925	1991	7975945199792141	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	17e9fdf6776b70
+1925	1991	7975945199792141	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	17e9fdf6776b70
+1991	2060	7975945200480417	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	ecf6f1f86e56e998
+1991	2060	7975945200480417	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	ecf6f1f86e56e998
+2061	2148	7975945201372709	CMakeFiles/bindings-populate-complete	c3f36ce0415e549d
+2061	2148	7975945201372709	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	c3f36ce0415e549d
+2061	2148	7975945201372709	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/CMakeFiles/bindings-populate-complete	c3f36ce0415e549d
+2061	2148	7975945201372709	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	c3f36ce0415e549d

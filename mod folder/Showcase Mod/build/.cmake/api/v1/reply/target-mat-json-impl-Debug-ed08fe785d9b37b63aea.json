@@ -1,0 +1,100 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"build/_deps/json-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "mat-json-impl::@1f73e43ed239fe3d59ae",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mat-json::@1f73e43ed239fe3d59ae"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mat-json::@1f73e43ed239fe3d59ae"
+		}
+	],
+	"interfaceSources" : 
+	[
+		{
+			"path" : "build/_deps/json-src/src/external/dragonbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "build/_deps/json-src/src/value.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "build/_deps/json-src/src/impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "build/_deps/json-src/src/parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "build/_deps/json-src/src/dump.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"name" : "mat-json-impl",
+	"paths" : 
+	{
+		"build" : "_deps/json-build",
+		"source" : "build/_deps/json-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"interfaceSourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"name" : "Source Files",
+			"sourceIndexes" : []
+		}
+	],
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

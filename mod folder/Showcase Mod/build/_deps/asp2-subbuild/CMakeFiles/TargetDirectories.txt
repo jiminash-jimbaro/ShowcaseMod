@@ -1,0 +1,3 @@
+C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/asp2-subbuild/CMakeFiles/asp2-populate.dir
+C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/asp2-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/asp2-subbuild/CMakeFiles/rebuild_cache.dir
