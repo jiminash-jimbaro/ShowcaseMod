@@ -5,9 +5,8 @@ This mod adds a button to the level info screen that opens a YouTube showcase vi
 > Write your longer mod description below this line. Anything in this file is used as the full description in Geode.
 
 ## introduction
-hi im jimbaro and this is my first mod, i normaly dont code with C++ and im more used to C# unity coding, ive always wanted to make a geode mod and decided id take a gamble and make the first mod idea that came to mind that i couldnt find an existing ver of on the geode servers :3
-## I KNOW
-i know there was an / is an existing mod that does the exact same but i couldnt find it so i remade it myself 
+hi im jimbaro and this is my first mod, i normaly dont code with C++ and im more used to C# unity coding, ive always wanted to make a geode mod and decided id take a gamble and make the first mod idea that came to mind that i couldnt find an existing one of on the geode servers :3
+
 ## Features
 - Adds a right-side menu button in the Level Info screen that links to a youtube showcase of that level 
 - will say if there isnt a video linked to it (might update this to be a little better)
