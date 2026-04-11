@@ -2,9 +2,9 @@
 	"geode": "5.5.3",
 	"gd": {
 		"win": "2.2081",
-		"android": "2.208.1",
-		"mac": "2.208.1",
-		"ios": "2.208.1"
+		"android": "2.2081",
+		"mac": "2.1081",
+		"ios": "2.2081"
 	},
 	"id": "jimbaro.showcase-mod",
 	"name": "Youtube showcases",
