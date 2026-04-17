@@ -1,5 +1,5 @@
 # ninja log v7
-7	28	7981536736982341	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
+33	55	7981537088181088	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
 46	1229	7981536737371323	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	e4d616efd43771cc
 42	1474	7981536737326187	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	355b16f7522c052
 1474	1714	7981536751650290	_deps/fmt-build/fmtd.lib	df5a5acf526965a0
@@ -3190,8 +3190,5 @@
 14898	17325	7981536885891355	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	a90df64bfe8d576c
 17325	17750	7981536912140564	jimbaro.showcase-mod.dll	3b04be98b0687953
 17325	17750	7981536912140564	jimbaro.showcase-mod.lib	3b04be98b0687953
-17750	18044	7981536914408482	CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
-17750	18044	7981536914408482	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
-33	55	7981537088181088	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
 83	374	7981537088679899	CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
 83	374	7981537088679899	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
