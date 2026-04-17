@@ -8,6 +8,7 @@
 	},
 	"id": "jimbaro.showcase-mod",
 	"name": "Youtube showcases",
+	
 "links": {
 	"community": "https://discord.gg/jgW9pn87"
 },
@@ -19,10 +20,9 @@
 	"dependencies": {
 		"geode.node-ids": ">=v1.20.0"
 	},
-	"resources": {
-		"files": [
-			"resources/showcase-video-links.txt",
-			"resources/mod-icon.png"
-		]
-	}
+"resources": {
+  "files": [
+    "resources/showcase-video-links.txt"
+  ]
+}
 }

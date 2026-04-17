@@ -576,7 +576,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "GeodeBindings::@1a45702be1b1dbd02bc1",
-					"jsonFile" : "target-GeodeBindings-Debug-cc193c9ab58fbabf4403.json",
+					"jsonFile" : "target-GeodeBindings-Debug-ee798562cda5316ee45f.json",
 					"name" : "GeodeBindings",
 					"projectIndex" : 9
 				},
@@ -653,7 +653,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ShowcaseMod::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ShowcaseMod-Debug-a88b6cf05321c804e9d0.json",
+					"jsonFile" : "target-ShowcaseMod-Debug-2e6c96a550d3d16da941.json",
 					"name" : "ShowcaseMod",
 					"projectIndex" : 0
 				},

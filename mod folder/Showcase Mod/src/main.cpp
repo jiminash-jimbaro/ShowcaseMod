@@ -1,7 +1,8 @@
 #include <Geode/Geode.hpp>
 #include <Geode/modify/LevelInfoLayer.hpp>
 #include <Geode/utils/web.hpp>
-#include <Geode/utils/file.hpp>
+#include <Geode/utils/string.hpp>
+#include <fstream>
 #include <sstream>
 #include <string>
 #include <unordered_map>
@@ -14,106 +15,105 @@ struct ShowcaseVideoLink {
 };
 
 static std::unordered_map<int, ShowcaseVideoLink> g_showcaseVideoLinks;
-static bool g_showcaseVideoLinksLoaded = false;
+static bool g_loaded = false;
 
 static void loadShowcaseVideoLinks() {
-    if (g_showcaseVideoLinksLoaded) return;
-    g_showcaseVideoLinksLoaded = true;
+    if (g_loaded) return;
+    if (!geode::getMod()) return;
 
-    auto path = geode::Mod::get()->getResourcesDir() / "showcase-video-links.txt";
-    auto contentRes = geode::utils::file::readString(path);
+    auto path = geode::getMod()->getResourcesDir() / "showcase-video-links.txt";
 
-        if (!contentRes) return;
+    std::error_code ec;
+    if (!std::filesystem::exists(path, ec) || ec) {
+        log::warn("ShowcaseMod", "Video link file not found");
+        return;
+    }
 
-        std::istringstream stream(*contentRes);
-        std::string line;
+    std::ifstream file(geode::utils::string::pathToString(path));
+    if (!file.is_open()) {
+        log::warn("ShowcaseMod", "Could not open video link file");
+        return;
+    }
 
-        while (std::getline(stream, line)) {
-            if (line.empty() || line[0] == '#') continue;
+    std::string line;
+    while (std::getline(file, line)) {
+        if (line.empty() || line[0] == '#') continue;
 
-            std::istringstream iss(line);
+        std::istringstream ss(line);
 
-            int id;
-            std::string url;
+        int id = 0;
+        std::string url;
 
-            if (!(iss >> id >> url)) continue;
+        if (!(ss >> id >> url)) continue;
 
-            std::string name;
-            std::getline(iss, name);
-            if (!name.empty() && name.front() == ' ')
-                name.erase(0, 1);
+        std::string name;
+        std::getline(ss, name);
 
-            g_showcaseVideoLinks[id] = { url, name };
-        }
-    };
+        if (!name.empty() && name.front() == ' ')
+            name.erase(0, 1);
+
+        g_showcaseVideoLinks.emplace(id, ShowcaseVideoLink{ url, name });
+    }
+
+    g_loaded = true;
+}
 
 class $modify(MyLevelInfoLayer, LevelInfoLayer) {
 public:
- bool init(GJGameLevel* level, bool challenge) {
-    if (!LevelInfoLayer::init(level, challenge)) {
-        return false;
-    }
+    bool init(GJGameLevel* level, bool challenge) {
+        if (!LevelInfoLayer::init(level, challenge)) return false;
 
-    auto sideMenu = this->getChildByID("right-side-menu");
-    if (!sideMenu) {
-        sideMenu = this->getChildByID("side-menu");
-    }
-    if (!sideMenu) {
-        sideMenu = this->getChildByID("top-right-menu");
-    }
+        auto menu = this->getChildByID("right-side-menu");
+        if (!menu) menu = this->getChildByID("side-menu");
+        if (!menu) menu = this->getChildByID("top-right-menu");
 
-    if (sideMenu) {
-        auto icon = CCSprite::createWithSpriteFrameName("gj_ytIcon_001.png");
-        cocos2d::CCMenuItem* button = nullptr;
+        if (menu) {
+            auto icon = CCSprite::createWithSpriteFrameName("gj_ytIcon_001.png");
 
-        if (icon) {
-            button = CCMenuItemSpriteExtra::create(
-                icon,
-                this,
-                menu_selector(MyLevelInfoLayer::onButtonClick)
-            );
-        } else {
-            auto label = CCLabelBMFont::create("Showcase", "goldFont.fnt");
-            if (label) {
-                label->setScale(0.6f);
-                button = CCMenuItemLabel::create(
-                    label,
-                    this,
+            CCMenuItem* btn = nullptr;
+
+            if (icon) {
+                btn = CCMenuItemSpriteExtra::create(
+                    icon, this,
                     menu_selector(MyLevelInfoLayer::onButtonClick)
                 );
+            } else {
+                auto label = CCLabelBMFont::create("Showcase", "goldFont.fnt");
+                if (label) {
+                    label->setScale(0.6f);
+                    btn = CCMenuItemLabel::create(
+                        label, this,
+                        menu_selector(MyLevelInfoLayer::onButtonClick)
+                    );
+                }
+            }
+
+            if (btn) {
+                btn->setID("showcase-button");
+                menu->addChild(btn);
+                menu->updateLayout();
             }
         }
 
-        if (button) {
-            button->setID("showcase-button");
-            sideMenu->addChild(button);
-            sideMenu->updateLayout();
-        } else {
-            log::warn("ShowcaseMod", "Failed to create showcase button for LevelInfoLayer");
-        }
-    } else {
-        log::warn("ShowcaseMod", "Could not find a button container in LevelInfoLayer");
+        return true;
     }
 
-    return true;
-}
-
-    void onButtonClick(CCObject* sender) {
-        if (!this->m_level) {
-            FLAlertLayer::create("Showcase", "No level is loaded.", "OK")->show();
+    void onButtonClick(CCObject*) {
+        if (!m_level) {
+            FLAlertLayer::create("Showcase", "No level loaded", "OK")->show();
             return;
         }
 
-        int levelID = static_cast<int>(this->m_level->m_levelID);
-     auto it = g_showcaseVideoLinks.find(levelID);
-        if (it != g_showcaseVideoLinks.end()) {
-            geode::utils::web::openLinkInBrowser(it->second.url);
-        } else {
-            FLAlertLayer::create(
-                "Showcase",
-                "No showcase video is attached to this level.",
-                "OK"
-            )->show();
+        loadShowcaseVideoLinks();
+
+        int id = (int)m_level->m_levelID;
+
+        auto it = g_showcaseVideoLinks.find(id);
+        if (it == g_showcaseVideoLinks.end()) {
+            FLAlertLayer::create("Showcase", "No video for this level", "OK")->show();
+            return;
         }
+
+        geode::utils::web::openLinkInBrowser(it->second.url);
     }
 };
