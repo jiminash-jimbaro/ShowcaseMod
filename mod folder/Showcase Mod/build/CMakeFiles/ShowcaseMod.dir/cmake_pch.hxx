@@ -2,7 +2,7 @@
 
 #pragma clang system_header
 #ifdef __cplusplus
-#include "c:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/DefaultInclude.hpp"
-#include "c:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/Geode.hpp"
-#include "c:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/Bindings.hpp"
+#include "C:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/DefaultInclude.hpp"
+#include "C:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/Geode.hpp"
+#include "C:/Users/jimin/Desktop/GDmods/geode/loader/include/Geode/Bindings.hpp"
 #endif // __cplusplus

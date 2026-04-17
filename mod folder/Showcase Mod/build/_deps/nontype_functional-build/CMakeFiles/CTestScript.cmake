@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.3.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/nontype_functional-src")
-set(CTEST_BINARY_DIRECTORY "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/nontype_functional-build")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/_deps/nontype_functional-src")
+set(CTEST_BINARY_DIRECTORY "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/_deps/nontype_functional-build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")

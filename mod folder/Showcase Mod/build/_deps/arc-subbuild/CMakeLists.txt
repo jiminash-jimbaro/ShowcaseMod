@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(arc-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/dankmeme01/arc.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.5.5"
-                    SOURCE_DIR          "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/arc-src"
-                    BINARY_DIR          "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/Showcase Mod/build/_deps/arc-build"
+                    SOURCE_DIR          "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/_deps/arc-src"
+                    BINARY_DIR          "C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/_deps/arc-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

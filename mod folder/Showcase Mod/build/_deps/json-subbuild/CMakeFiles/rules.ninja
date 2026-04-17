@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\jimin\Desktop\GDmods\ShowcaseMod\Showcase Mod\build\_deps\json-subbuild" -B"C:\Users\jimin\Desktop\GDmods\ShowcaseMod\Showcase Mod\build\_deps\json-subbuild"
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\jimin\Desktop\GDmods\ShowcaseMod\mod folder\Showcase Mod\build\_deps\json-subbuild" -B"C:\Users\jimin\Desktop\GDmods\ShowcaseMod\mod folder\Showcase Mod\build\_deps\json-subbuild"
   description = Re-running CMake...
   generator = 1
 
