@@ -2951,7 +2951,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "jimbaro.showcase-mod:v1.0.2"
+			"value" : "jimbaro.showcase-mod:v1.0.3"
 		},
 		{
 			"name" : "GEODE_MOD_BINARY_SUFFIX",
