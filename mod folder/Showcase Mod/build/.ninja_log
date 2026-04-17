@@ -1,5 +1,5 @@
 # ninja log v7
-49	92	7981675180183044	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
+32	54	7981681610930207	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
 46	1229	7981536737371323	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	e4d616efd43771cc
 42	1474	7981536737326187	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	355b16f7522c052
 1474	1714	7981536751650290	_deps/fmt-build/fmtd.lib	df5a5acf526965a0
@@ -3187,14 +3187,16 @@
 4621	16401	7981536783121303	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_10_cxx.cxx.obj	9aa6f403dd45f8e5
 16403	16581	7981536900931402	bindings/GeodeBindings.lib	a529132695fba42
 14909	16866	7981536886002170	CMakeFiles/ShowcaseMod.dir/C_/Users/jimin/Desktop/GDmods/geode/entry.cpp.obj	b7e9b2df0c60f042
-121	3143	7981675180901142	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	a90df64bfe8d576c
-3144	3686	7981675211126751	jimbaro.showcase-mod.dll	3b04be98b0687953
-3144	3686	7981675211126751	jimbaro.showcase-mod.lib	3b04be98b0687953
-3687	4273	7981675216555360	CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
-3687	4273	7981675216555360	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
-32	54	7981681610930207	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
 71	1765	7981681611316152	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	a90df64bfe8d576c
 1766	2138	7981681628266173	jimbaro.showcase-mod.dll	3b04be98b0687953
 1766	2138	7981681628266173	jimbaro.showcase-mod.lib	3b04be98b0687953
 2138	2435	7981681631991617	CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
 2138	2435	7981681631991617	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	c00c876eb941302b
+37	76	7981684338783094	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
+110	8876	7981684339507050	CMakeFiles/ShowcaseMod.dir/cmake_pch.hxx.pch	9d94e42f9f40162b
+8887	11261	7981684427269235	CMakeFiles/ShowcaseMod.dir/C_/Users/jimin/Desktop/GDmods/geode/entry.cpp.obj	c48fe1f2ea6c593f
+8877	11834	7981684427185536	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	23e46f1e30bc8c0f
+11834	12418	7981684459812107	jimbaro.showcase-mod-ver-1.0.3.dll	5bf320214ba0f904
+11834	12418	7981684459812107	jimbaro.showcase-mod-ver-1.0.3.lib	5bf320214ba0f904
+12418	12797	7981684462597746	CMakeFiles/ShowcaseMod_PACKAGE	f2466c4461a6aa67
+12418	12797	7981684462597746	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	f2466c4461a6aa67

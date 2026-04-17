@@ -6,7 +6,7 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "jimbaro.showcase-mod",
+	"id": "jimbaro.showcase-mod-ver-1.0.3",
 	"name": "Youtube showcases",
 	
 "links": {
