@@ -1,12 +1,12 @@
 # ninja log v7
-49	88	7981690746507536	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
-46	1229	7981536737371323	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	e4d616efd43771cc
-42	1474	7981536737326187	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	355b16f7522c052
-1474	1714	7981536751650290	_deps/fmt-build/fmtd.lib	df5a5acf526965a0
-50	3202	7981536737404067	_deps/asp2-build/CMakeFiles/asp.dir/Unity/unity_0_cxx.cxx.obj	be7755e43a329cbf
-3202	3293	7981536768937808	_deps/asp2-build/asp.lib	1b889f258a8a6360
-54	3778	7981536737449330	_deps/arc-build/CMakeFiles/arc.dir/Unity/unity_0_cxx.cxx.obj	4f260959813d2a27
-3780	3852	7981536774703107	_deps/arc-build/arc.lib	83dfdd070fc4074d
+31	76	7981789860178036	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
+165	1604	7981754921205135	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	d2ff313a04617fbd
+153	2147	7981754921079299	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	8f48ff388cf744eb
+2147	2295	7981754941025769	_deps/fmt-build/fmtd.lib	df5a5acf526965a0
+177	4093	7981754921325701	_deps/asp2-build/CMakeFiles/asp.dir/Unity/unity_0_cxx.cxx.obj	be52a454a869bc98
+4093	4237	7981754960486984	_deps/asp2-build/asp.lib	1b889f258a8a6360
+188	4625	7981754921446822	_deps/arc-build/CMakeFiles/arc.dir/Unity/unity_0_cxx.cxx.obj	8530fcb08f705bb6
+4625	4729	7981754965815110	_deps/arc-build/arc.lib	83dfdd070fc4074d
 3852	4497	7981536775427330	bindings/bindings/Geode/CodegenData.txt	361fc890d71f30a7
 3852	4497	7981536775427330	bindings/bindings/Geode/GeneratedBinding.hpp	361fc890d71f30a7
 3852	4497	7981536775427330	bindings/bindings/Geode/GeneratedModify.hpp	361fc890d71f30a7
@@ -3169,43 +3169,40 @@
 3852	4497	7981536775427330	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/bindings/bindings/Geode/modify/tk_spline.hpp	361fc890d71f30a7
 3852	4497	7981536775427330	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/bindings/bindings/Geode/modify/xml_document.hpp	361fc890d71f30a7
 3852	4497	7981536775427330	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/bindings/bindings/Geode/modify/xml_node.hpp	361fc890d71f30a7
-4640	13003	7981536783307168	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_8_cxx.cxx.obj	6f5d3ab187b062b6
-4631	13427	7981536783216621	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_9_cxx.cxx.obj	7ac93bcbe6f12050
-4710	13627	7981536784011507	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_1_cxx.cxx.obj	24f27261e52b8082
-4592	13684	7981536782832745	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_14_cxx.cxx.obj	d89cdcef45c108ef
-4650	14022	7981536783407837	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_7_cxx.cxx.obj	9fdc37a18ce30b65
-4721	14102	7981536784121016	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_0_cxx.cxx.obj	7ea51b4a49b7a485
-4660	14173	7981536783508276	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_6_cxx.cxx.obj	e52576fe34910cbd
-4698	14296	7981536783895869	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_2_cxx.cxx.obj	6e21225253646c0d
-4671	14817	7981536783613464	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_5_cxx.cxx.obj	3072fc64fee0328a
-114	8675	7981690587057019	CMakeFiles/ShowcaseMod.dir/cmake_pch.hxx.pch	732c86cc02684745
-4599	15174	7981536782897924	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_13_cxx.cxx.obj	9e4f331b93f6bfcd
-4680	15264	7981536783703970	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_4_cxx.cxx.obj	99f7494c5a98e45f
-4611	15785	7981536783028330	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_11_cxx.cxx.obj	bb7202177afe8b4c
-4604	16041	7981536782947942	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_12_cxx.cxx.obj	df90d5631512c124
-4688	16062	7981536783794391	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_3_cxx.cxx.obj	dd8670c4262c1622
-4621	16401	7981536783121303	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_10_cxx.cxx.obj	9aa6f403dd45f8e5
-16403	16581	7981536900931402	bindings/GeodeBindings.lib	a529132695fba42
-8682	11283	7981690672737987	CMakeFiles/ShowcaseMod.dir/C_/Users/jimin/Desktop/GDmods/geode/entry.cpp.obj	9114791286905b47
-8676	11896	7981690672661798	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	86d3bc510c80a9c1
+4804	15747	7981754967605648	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_8_cxx.cxx.obj	1b846bc7d9e89a05
+4795	16095	7981754967504760	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_9_cxx.cxx.obj	54920dc32dea265f
+4879	15373	7981754968357686	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_1_cxx.cxx.obj	dc110b0f70d81aa2
+4752	16479	7981754967080369	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_14_cxx.cxx.obj	5f617b107f0a8a28
+4814	16757	7981754967692719	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_7_cxx.cxx.obj	2c4abec1e57276d
+4891	15610	7981754968463315	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_0_cxx.cxx.obj	ecf8f65717e8c275
+4824	16055	7981754967803464	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_6_cxx.cxx.obj	97ba1d4fd3fb3a57
+4869	16133	7981754968250906	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_2_cxx.cxx.obj	37168dd629d8dae1
+4836	16676	7981754967924012	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_5_cxx.cxx.obj	17f81cfc28696f6b
+4743	17857	7981754966990094	CMakeFiles/ShowcaseMod.dir/cmake_pch.hxx.pch	e41757d32c069464
+4759	18367	7981754967150826	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_13_cxx.cxx.obj	7994613fb31323a8
+4848	17272	7981754968049693	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_4_cxx.cxx.obj	743552496a689442
+4775	19309	7981754967307871	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_11_cxx.cxx.obj	4df2b6c4e62266a9
+4767	19504	7981754967226172	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_12_cxx.cxx.obj	5d2255c1bd9f43d9
+4858	18781	7981754968145144	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_3_cxx.cxx.obj	e888c10c74f69fe9
+4786	20127	7981754967424110	bindings/CMakeFiles/GeodeBindings.dir/Unity/unity_10_cxx.cxx.obj	b09b843ac2479be8
+106	397	7981757302557382	bindings/GeodeBindings.lib	a529132695fba42
+17870	20561	7981755098260278	CMakeFiles/ShowcaseMod.dir/C_/Users/jimin/Desktop/GDmods/geode/entry.cpp.obj	856d421e7537cc4c
+107	4277	7981783839615275	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	b4da00e477a863a5
 1766	2138	7981681628266173	jimbaro.showcase-mod.dll	3b04be98b0687953
 1766	2138	7981681628266173	jimbaro.showcase-mod.lib	3b04be98b0687953
-117	466	7981690747196151	CMakeFiles/ShowcaseMod_PACKAGE	789d3cf08978114
-117	466	7981690747196151	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	789d3cf08978114
+4900	5300	7981783887543281	CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
+4900	5300	7981783887543281	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
 11834	12418	7981684459812107	jimbaro.showcase-mod-ver-1.0.3.dll	5bf320214ba0f904
 11834	12418	7981684459812107	jimbaro.showcase-mod-ver-1.0.3.lib	5bf320214ba0f904
 14004	14790	7981688215126226	jimbaro.Youtube.showcases-mod.dll	2cb0f8174e2ca28d
 14004	14790	7981688215126226	jimbaro.Youtube.showcases-mod.lib	2cb0f8174e2ca28d
 11896	12496	7981690708028706	jimbaro.youtube.showcases.mod.dll	113db658767d2541
 11896	12496	7981690708028706	jimbaro.youtube.showcases.mod.lib	113db658767d2541
-47	93	7981691767532471	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
-122	8006	7981691768285459	CMakeFiles/ShowcaseMod.dir/cmake_pch.hxx.pch	a32ff37f9bb326c4
-8017	10280	7981691847233817	CMakeFiles/ShowcaseMod.dir/C_/Users/jimin/Desktop/GDmods/geode/entry.cpp.obj	824babd1bec18598
-8007	10791	7981691847124587	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	360da565a9308fda
-10791	11389	7981691877870829	jimbaro.showcases-mod.dll	a04e420457fac3e0
-10791	11389	7981691877870829	jimbaro.showcases-mod.lib	a04e420457fac3e0
-11389	11730	7981691880950212	CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
-11389	11730	7981691880950212	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
-43	78	7981691903076375	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
-104	506	7981691903669740	CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
-104	506	7981691903669740	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
+4277	4899	7981783881314612	jimbaro.showcases-mod.dll	a04e420457fac3e0
+4277	4899	7981783881314612	jimbaro.showcases-mod.lib	a04e420457fac3e0
+42	96	7981811211953291	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/cmake.verify_globs	4e5ff25871a352b2
+144	3799	7981811212977118	CMakeFiles/ShowcaseMod.dir/src/main.cpp.obj	b4da00e477a863a5
+3800	4346	7981811249523564	jimbaro.showcases-mod.dll	a04e420457fac3e0
+3800	4346	7981811249523564	jimbaro.showcases-mod.lib	a04e420457fac3e0
+4346	4821	7981811254989280	CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee
+4346	4821	7981811254989280	C:/Users/jimin/Desktop/GDmods/ShowcaseMod/mod folder/Showcase Mod/build/CMakeFiles/ShowcaseMod_PACKAGE	218316dc8eae5fee

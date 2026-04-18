@@ -10,12 +10,19 @@ if (NOT DEFINED ENV{GEODE_SDK})
 endif()
 
 
+include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/include/nlohmann)  # Add the path to nlohmann/json.hpp
+
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_BINARY_DIR}/geode)
 
+# Collect source files
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS src/*.cpp)
 
+
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
+
 
 setup_geode_mod(${PROJECT_NAME})
